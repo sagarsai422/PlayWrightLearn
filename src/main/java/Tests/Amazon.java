@@ -14,6 +14,7 @@ public class Amazon {
             BrowserContext context = browser.newContext();
             Page page = context.newPage();
 
+            System.out.println("website opening");
             page.navigate("https://www.amazon.in/");
             page.waitForLoadState(LoadState.DOMCONTENTLOADED);
             page.locator("#twotabsearchtextbox, body").first().waitFor();
