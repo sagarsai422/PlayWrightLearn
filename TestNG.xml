@@ -1,0 +1,10 @@
+<suite name="SagarTestSuite">
+
+
+    <test name = "LearnTest">
+        <classes>
+            <class name = "Tests.FirstTest"/>
+        </classes>
+    </test>
+
+</suite>
